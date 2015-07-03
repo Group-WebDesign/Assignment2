@@ -1,3 +1,45 @@
-table, th, td {
+table {
+	/* table-layout: fixed; */
+	/*width: 50px;*/
 	border: 1px solid black;
 }	
+th  {
+	width: 50px;
+	border: 1px solid black;
+}
+td {
+	width: 50px;
+	border: 1px solid black;
+}
+tbody td:first-child {
+		font-style: italic;
+}
+tbody td:nth-child(2){
+	color: red;
+}
+td:nth-child(4){
+	color: blue;
+}
+tfoot:first-child {
+	color: black;
+	
+}
+tfoot:nth-child(2){
+	color: black;
+
+}
+tbody tr:first-child{
+	background-color: lime;
+}
+tbody tr:nth-child(2){
+	background-color: aqua;
+}
+tbody tr:nth-child(3){
+	background-color: lime;
+}
+tbody tr:nth-child(4){
+	background-color: aqua;
+}
+tbody tr:nth-child(5){
+	background-color: lime;
+}
