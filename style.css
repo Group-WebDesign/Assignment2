@@ -9,7 +9,7 @@ dt:hover + dd {
 }
 
 .inner-content {
-    background-color: #00BFFF;
-    width: 75%;
     margin: 0 auto;
+    width: 75%;
+    background-color: #00BFFF;
 }
