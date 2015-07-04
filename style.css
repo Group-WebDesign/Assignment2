@@ -1,2 +1,15 @@
-li.open {list-style: circle;}
-li.closed {list-style: disc;}
+dt:hover + dd {
+    background-color: #9370db;
+}
+
+.outer-content {
+    margin-top: 20px;
+    width: 75%;
+    background-color: #FF1493;
+}
+
+.inner-content {
+    background-color: #00BFFF;
+    width: 75%;
+    margin: 0 auto;
+}
