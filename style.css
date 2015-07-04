@@ -1,3 +1,4 @@
+
 table {
 	/* table-layout: fixed; */
 	/*width: 50px;*/
@@ -55,4 +56,21 @@ dt:hover + dd {
     margin: 0 auto;
     width: 75%;
     background-color: #00BFFF;
+}
+
+h4 {
+	padding: 10px;
+	border: 1px solid black;
+	font-weight: 100;
+}
+
+p {
+	padding: 10px;
+	border: 1px solid black;
+	font-weight: 100;
+}
+
+img {
+	float: left;
+	margin: 0%;
 }
